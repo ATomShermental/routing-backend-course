@@ -1,0 +1,26 @@
+The OSM is like a wiki for the map of our world, that is created by a community of people just for free. It represents 
+all the objects on the map, that we need to navigate the map.
+
+The main OSM elements are: nodes, ways and relations.
+
+The first one is node. It is basic element in OSM of our map representation. It is refers to the points on the map,
+such bus stops, traffic light or building entrance. Also it may have tags with special features of it, such as
+it's latitude and longitude coordinates, description and the others.
+
+The second one is way. It is a sequence of nodes on the map, that represents roads or other paths. It also may have
+tags with special features of it, such as width, speedlimit, type of surface and the others.
+
+The last one is relation. Relations is a sequnce of nodes and ways to represent more complex object on the map, such as
+bus way with all the stops and roads. It also may have special tags, that can be a combination of tags, that are refers
+to the nodes and ways relevant to this relation.
+
+OSM have a lot of file formats, but the main are two: PBF and XML.
+
+XML is a human-readable file format that can be parsed with relevant libraries. But it has it's own disadvantages,
+such as a large file size and they are slower to parse.
+
+PBF is a binary file format that is more complex than XML but is it has smaller file size and this file format
+can be parsed x10 faster then XML.
+
+So both file types has their own advantages and disadvantages, and which one to choose depends on your needs 
+and data size that you will work with.
